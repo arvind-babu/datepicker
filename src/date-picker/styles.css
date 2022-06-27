@@ -34,6 +34,8 @@
 }
 
 .sdp--text {
+  display: flex;
+  justify-content: center;
   font-weight: normal;
   font-size: x-large;
   margin: auto;
