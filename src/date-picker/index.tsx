@@ -100,13 +100,13 @@ const DatePicker = React.forwardRef<HTMLDivElement, DatePickerProps>(
           prevMonth={prevMonth}
         />
         <div className="sdp--dates-grid">
-          <p className="sdp--text sdp--text__inactive">Su</p>
-          <p className="sdp--text sdp--text__inactive">Mo</p>
-          <p className="sdp--text sdp--text__inactive">Tu</p>
-          <p className="sdp--text sdp--text__inactive">We</p>
-          <p className="sdp--text sdp--text__inactive">Th</p>
-          <p className="sdp--text sdp--text__inactive">Fr</p>
-          <p className="sdp--text sdp--text__inactive">Sa</p>
+          <p className="sdp--text sdp--text__inactive">Sun</p>
+          <p className="sdp--text sdp--text__inactive">Mon</p>
+          <p className="sdp--text sdp--text__inactive">Tue</p>
+          <p className="sdp--text sdp--text__inactive">Wed</p>
+          <p className="sdp--text sdp--text__inactive">Thu</p>
+          <p className="sdp--text sdp--text__inactive">Fri</p>
+          <p className="sdp--text sdp--text__inactive">Sat</p>
           {getDatesOfMonth(monthDate).map(({ d, active }) => {
             const dVal = d.getTime();
 
